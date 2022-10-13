@@ -1,28 +1,165 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <style type="text/css">
-html {
-  max-width: 70ch;
-  padding: 3em 1em;
-  margin: auto;
-  line-height: 1.75;
-  font-size: 1.25em;
-}
+<head>
+	<title>TJ Banghart</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-h1,h2,h3,h4,h5,h6 {
-  margin: 3em 0 1em;
-}
+	<div class="container">
+		<div class="photo">
+			<img class="headshot" src="assets/tjbanghart.jpg" alt="My Face">
+		</div>
+		<div class="hero">
+			<h1 class="name"><strong>TJ</strong>  Banghart</h1>
+			<span class="email">tjbanghart@gmail.com</span>
+		</div>
+	</div>
 
-p,ul,ol {
-  margin-bottom: 2em;
-  color: #1d1d1d;
-  font-family: sans-serif;
-}
-    </style>
-  </head>
-  <body>
-    <main>
-      <p>Hello, world!</p>
-    </main>
-  </body>
+<!-- 1) About section highlighting your background, professional and academic role, and your research interests
+
+include a picture of yourself (or avatar if you feel more comfortable) 
+2) Project section that showcases a few projects you have worked on (with pictures)
+
+3) Hobbies and interests
+
+4) Contact information -->
+<div class="container">
+
+		<span>
+			Hey ya’ll, my name is Thomas Banghart but I usually go by T.J. I was born and
+			raised in Redding, CA. I am entering UCSC
+			as a M.S. student in Computer Science & Engineering. I moved to Santa Cruz in 2016 to pursue
+			a PhD in Anthropology but decided to take the M.A. in 2018 and leave the program.
+			Since then, I went back to school to pursue a B.S. in Computer Science and have been
+			working as a Software Engineer.
+		</span>
+
+		<br/><br/>
+
+		<span>
+			I am interested in databases and data intensive languages. I think SQL itself has potential
+			to be <b>the</b> primary tool for business intelligence (BI) and I’d like to research how SQL could
+			incorporate the analytical functionality of BI tools without sacrificing
+			the declarative nature and relational completeness of SQL.
+		</span>
+</div>
+
+	<!-- Achievements -->
+<!-- Skills and intrest section -->
+	<div class="container">
+
+		<div class="sections">
+				<h2 class="section-title">Things i've worked on</h2>
+				
+				<div class="list-card">
+					<div>
+						<a href="https://cloud.google.com/looker/docs/what-is-lookml"><h3>LookML + Looker SQL</h3>
+						<span>LookML is a language for describing dimensions, aggregates, calculations, and data relationships in a SQL database.</span>
+						<br />
+						<img src="assets/looker-icon-svgrepo-com.svg" alt="Looker">
+					</div>
+				</div>	
+
+				<div class="list-card">
+					<div>
+						<a href="https://github.com/looker-open-source/bqjdbc"><h3>BQJDBC</h3>
+						<span>Open Source JDBC Driver for Google BigQuery.</span>
+						<br />
+						<img src="assets/google-bigquery-logo-1.svg" alt="BQ">
+					</div>
+				</div>
+				<div class="list-card">
+					<div>
+						<a href="https://calcite.apache.org/"><h3>Calcite</h3></a>
+						<span>Apache Calcite is an open source framework for building databases and data management systems.</span>
+						<br />
+						<img style="width: 300px;" src="assets/1024px-Apache_Calcite_Logo.svg.png" alt="Calcite">
+					</div>
+				</div>				
+		</div>
+	</div>
+
+<!-- Skills and intrest section -->
+	<div class="container">
+
+		<div class="sections">
+				<h2 class="section-title">Interests</h2>
+				<div class="list-cards">
+					<div class="list-card">
+						<div>
+							<h3>Mountain Biking</h3>
+							<img src="assets/mtb.jpeg" alt="mtb">
+						</div>
+					</div>	
+
+					<div class="list-card">
+						<div>
+							<h3>Climbing</h3>
+							<img src="assets/climbing.jpeg" alt="climbing">
+						</div>
+					</div>
+					<div class="list-card">
+						<div>
+							<h3>Beers</h3>
+							<img src="assets/beers.jpeg" alt="beer">
+						</div>
+					</div>
+				</div>				
+		</div>
+	</div>
+
+	<!-- Timeeline -->
+
+	<div class="container">
+		<ol class="timeline">
+		  <li>
+		    <p class="line">Experiences</p>
+		    <span class="point"></span>
+		    <p class="description">
+		      Software Engineer @Google
+		    </p>
+		    <span class="date">Today - Apr. 2020</span>
+		  </li>
+
+		  <li>
+		    <span class="point"></span>
+		    <p class="description">
+		      Data Analyst @Looker
+		    </p>
+		    <span class="date">Apr. 2016 - Sep. 2015</span>
+		  </li>
+
+		  		  <li>
+		    <p class="line">Education</p>
+		    <span class="point"></span>
+		    <p class="description">
+		      B.S. Computer Science<br/>
+		      Oregon State
+		    </p>
+		    <span class="date">2021</span>
+		  </li>
+
+		  		  <li>
+		    <span class="point"></span>
+		    <p class="description">
+		      M.A. Anthropology<br/>UCSC
+		    </p>
+		    <span class="date">2018</span>
+		  </li>
+		</ol>
+
+	</div>
+
+
+	<br><br>
+
+
+	<footer class="container">
+		<span style="font-size: 16px; margin-top: ">Template from <a href="https://newtodesign.com/">New to Design </a></span>
+	</footer>
+
+
+</body>
 </html>
